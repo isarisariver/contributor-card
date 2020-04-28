@@ -1,0 +1,50 @@
+h1 {
+  margin-top: 50px;
+  
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+}
+
+.topbar-item {
+  padding: 20px 50px;
+  font-size: 24px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid-item {
+  border: 1px solid;
+  border-color: black;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+#first-item {
+  margin-left: 0;
+}
