@@ -1,6 +1,5 @@
 h1 {
   margin-top: 50px;
-  
 }
 
 .page {
@@ -11,14 +10,12 @@ h1 {
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  margin: 0 30px;
 }
 
 .topbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   background-color: black;
   color: white;
   margin-top: 100px;
@@ -27,24 +24,79 @@ h1 {
 .topbar-item {
   padding: 20px 50px;
   font-size: 24px;
+  flex: 1;
+  text-align: center;
+}
+
+.topbar-item:hover {
+  background-color: #474747;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .grid-item {
+  display: flex;
+  flex-direction: column;
   border: 1px solid;
-  border-color: black;
-  margin: 20px;
+  border-color: lightgrey;
+  margin: 50px 0;
   padding: 20px;
-  width: 250px;
+  width: 19%;
   height: 250px;
   text-align: center;
+  align-items: center;
 }
 
 #first-item {
   margin-left: 0;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  width: 40%;
+  height: 40%;
+  line-height: 40%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.username {
+  margin-top: 10px;
+  margin-bottom: 45px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 0 30px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #919191;
+  font-weight: bold;
+}
+
+.points {
+  color: darkgreen;
+  padding: 3px;
+  letter-spacing: 0.2px;
+}
+
+.posts {
+  color: black;
+  font-weight: 400;
+  padding: 3px;
+  letter-spacing: 0.2px;
 }
